@@ -1,0 +1,13 @@
+prefix=/Users/pablosarti/Personal Portfolio/RSS Feed Reader/my_new_env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.10.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/pablosarti/Personal Portfolio/RSS Feed Reader/my_new_env/lib -lz -L/Users/pablosarti/Personal Portfolio/RSS Feed Reader/my_new_env/lib -llzma -lpthread -L/Users/pablosarti/Personal Portfolio/RSS Feed Reader/my_new_env/lib -liconv -L/Users/pablosarti/Personal Portfolio/RSS Feed Reader/my_new_env/lib -licui18n -licuuc -licudata   
+Cflags: -I${includedir}/libxml2 -I/Users/pablosarti/Personal Portfolio/RSS Feed Reader/my_new_env/include 
