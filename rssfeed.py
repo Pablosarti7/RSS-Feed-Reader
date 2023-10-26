@@ -5,6 +5,7 @@ import time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+
 def request_call():
     url = requests.get("your_rss_link")
 
