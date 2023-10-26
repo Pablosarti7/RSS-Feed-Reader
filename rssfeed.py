@@ -65,3 +65,5 @@ while True:
                 sent_email.append(title)
                 send_emails(customers_email='receivers_email', message=f'Title:\n{title}\n\n\nDescription:\n{description}')
                 del sent_email[0]
+
+
